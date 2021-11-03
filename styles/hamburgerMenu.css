@@ -27,6 +27,7 @@
     overflow-y: hidden;
     transition: all 2s ease-out;
   }
+  
   .overlayMenu a{
     transition: all .6s ease-out;
     display: block;

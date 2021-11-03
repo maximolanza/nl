@@ -27,7 +27,7 @@ const NavBar = () => {
     }
 
     const scrollTo = (section, event) => {
-        closeOverlay();
+        onSetOverlay(false)
         const yourHeight = 100;
         event.preventDefault();
         if (window) {
