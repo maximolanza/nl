@@ -97,3 +97,18 @@
         margin-right: 20px;
     }
 }
+
+
+@media screen and (max-width: 768px){
+    .nav .centered-logo {
+        font-size: 4rem;
+    } 
+    
+}
+
+@media screen and (max-width: 480px){
+    .nav .centered-logo {
+        font-size: 2rem;
+    } 
+    
+}

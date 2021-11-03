@@ -80,12 +80,20 @@
   .hamburguerLine{
     transition: all .2s ease-out;
     display: block;
-    background-color: black;
+   
     height: 7px;
     width: 49px;
     padding: 2px 2px;
     margin: 2px;
     opacity: 1;
+  }
+
+  .nav-transparent .hamburguerLine{
+    background-color: white;
+  }
+
+  .nav-bg .hamburguerLine{
+    background-color: black;
   }
   
   .middleHamb{
